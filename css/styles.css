@@ -1,0 +1,17 @@
+:root{
+    --accent-color: rgb(#4D5AE5);
+    --title-text-color: rgb(#2E2F42);
+    --primary-text-color: rgb(#434455);
+    --primary-background-color: rgb(#FFF);
+    --secondary-background-color: rgb(#F4F4FD);
+    --dark-background-color: rgb(#2E2F42);
+}
+/*Comments
+
+
+*/
+
+/*Header-Logo*/
+.logo > span{
+    color: var(--accent-color);
+}
