@@ -1,3 +1,4 @@
+/*Global Colors*/
 :root{
     --accent-color: rgb(#4D5AE5);
     --title-text-color: rgb(#2E2F42);
@@ -6,12 +7,23 @@
     --secondary-background-color: rgb(#F4F4FD);
     --dark-background-color: rgb(#2E2F42);
 }
-/*Comments
 
+/*Global Headings*/
+h1,h2,h3,h4,h5,h6 {
+    color: var(--title-text-color);
+}
 
-*/
+/*Global Paragraph*/
+p{
+    color: var(--primary-text-color);
+}
 
 /*Header-Logo*/
 .logo > span{
     color: var(--accent-color);
+}
+
+/*list - turn of bullets*/
+.list{
+    list-style: none;
 }
