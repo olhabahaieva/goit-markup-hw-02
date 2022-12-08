@@ -8,10 +8,14 @@
     --dark-background-color: rgb(#2E2F42);
 }
 
+
+
+
 /*Global page settings begins*/
 body{
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+    font-family: 
 }
 
 /*list - turn of bullets*/
@@ -19,6 +23,8 @@ body{
     list-style: none;
 }
 /*Global page settings ends*/
+
+
 
 
 /*Buttons*/
@@ -47,6 +53,18 @@ body{
 .main-navigation-item:hover,
 .main-navigation-item:focus {
     color: var(--primary-text-color);
+} 
+
+
+
+
+/*Studio page*/
+.hero{
+    background-color: var(--dark-background-color);
+    color: var(--primary-background-color)
 }
 
 
+
+
+/*Portfolio page*/
