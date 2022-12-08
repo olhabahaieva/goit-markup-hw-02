@@ -1,4 +1,4 @@
-/*Global Colors*/
+/*Global Colors-Variables*/
 :root{
     --accent-color: rgb(#4D5AE5);
     --title-text-color: rgb(#2E2F42);
@@ -8,22 +8,45 @@
     --dark-background-color: rgb(#2E2F42);
 }
 
-/*Global Headings*/
-h1,h2,h3,h4,h5,h6 {
-    color: var(--title-text-color);
-}
-
-/*Global Paragraph*/
-p{
+/*Global page settings begins*/
+body{
+    background-color: var(--primary-background-color);
     color: var(--primary-text-color);
-}
-
-/*Header-Logo*/
-.logo > span{
-    color: var(--accent-color);
 }
 
 /*list - turn of bullets*/
 .list{
     list-style: none;
 }
+/*Global page settings ends*/
+
+
+/*Buttons*/
+.button{
+    background-color: var(--secondary-background-color);
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.button:hover
+.button:focus{
+
+}
+
+
+/*Header-Logo*/
+.logo > span{
+    color: var(--accent-color);
+}
+
+/*Header - main navigation*/
+.main-navigation a{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.main-navigation-item:hover,
+.main-navigation-item:focus {
+    color: var(--primary-text-color);
+}
+
+
