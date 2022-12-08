@@ -16,11 +16,18 @@ body{
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /*list - turn of bullets*/
 .list{
     list-style: none;
+}
+
+footer{
+    background-color: var(--dark-background-color);
+    color: var(--primary-background-color);
 }
 /*Global page settings ends*/
 
@@ -43,17 +50,27 @@ body{
 
 /*Header-Logo*/
 
-.logo{
-    color: var(--title-text-color);
+.logo-footer{
+    color:var(--primary-background-color);
     font-family: Raleway, sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.logo > span {
+.logo{
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.blue-logo {
     color: var(--accent-color);
 }
 
@@ -62,7 +79,7 @@ body{
     color: var(--title-text-color);
     text-decoration: none;
     font-family: Roboto, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -77,6 +94,7 @@ body{
 
 /*Studio page*/
 /*Hero*/
+
 .hero{
     background-color: var(--dark-background-color);
     color: var(--primary-background-color);
@@ -88,9 +106,30 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     color: var(--primary-background-color);
 }
 
 
+
+/*Benefits*/
+.benefit-items > h3{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 /*Portfolio page*/
+
+/*Hidden title*/
+.hidden-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+/*What we are doing*/
+.heading-second-level{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.33;
+}
