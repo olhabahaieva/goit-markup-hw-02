@@ -1,11 +1,11 @@
 /*Global Colors-Variables*/
-:root{
-    --accent-color: rgb(#4D5AE5);
-    --title-text-color: rgb(#2E2F42);
-    --primary-text-color: rgb(#434455);
-    --primary-background-color: rgb(#FFF);
-    --secondary-background-color: rgb(#F4F4FD);
-    --dark-background-color: rgb(#2E2F42);
+:root {
+    --accent-color: #4D5AE5;
+    --title-text-color: #2E2F42;
+    --primary-text-color: #434455;
+    --primary-background-color: #FFF);
+    --secondary-background-color: #F4F4FD;
+    --dark-background-color: #2E2F42;
 }
 
 
@@ -15,7 +15,7 @@
 body{
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
-    font-family: 
+    font-family: Roboto, sans-serif;
 }
 
 /*list - turn of bullets*/
@@ -29,7 +29,8 @@ body{
 
 /*Buttons*/
 .button{
-    background-color: var(--secondary-background-color);
+    font-family: inherit;
+    background-color: var(--accent-color);
     color: var(--accent-color);
     cursor: pointer;
 }
@@ -41,7 +42,18 @@ body{
 
 
 /*Header-Logo*/
-.logo > span{
+
+.logo{
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo > span {
     color: var(--accent-color);
 }
 
@@ -49,6 +61,11 @@ body{
 .main-navigation a{
     color: var(--title-text-color);
     text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .main-navigation-item:hover,
 .main-navigation-item:focus {
@@ -59,12 +76,21 @@ body{
 
 
 /*Studio page*/
+/*Hero*/
 .hero{
     background-color: var(--dark-background-color);
-    color: var(--primary-background-color)
+    color: var(--primary-background-color);
 }
 
-
+.hero-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--primary-background-color);
+}
 
 
 /*Portfolio page*/
