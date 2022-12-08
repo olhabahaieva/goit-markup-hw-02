@@ -38,6 +38,7 @@ footer{
 
 
 /*Buttons*/
+
 .button{
     font-family: inherit;
     background-color: var(--accent-color);
@@ -50,6 +51,18 @@ footer{
     background-color: var(--accent-color);
 }
 
+.button-light{
+    font-family: inherit;
+    color: var(--accent-color);
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+}
+
+.button-light:hover,
+.buton-light:focus {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+}
 
 /*Header-Logo*/
 
@@ -121,14 +134,7 @@ footer{
     line-height: 1.2;
 }
 
-/*Portfolio page*/
 
-/*Hidden title*/
-.hidden-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.33;
-}
 
 /*What we are doing*/
 .heading-second-level{
@@ -142,9 +148,26 @@ footer{
 .our-team p{
     background-color: var(--secondary-background-color);
 }
-.our-team-list > h2{
+.our-team-list > h2 {
         font-weight: 700;
         font-size: 20px;
         line-height: 1.2;
 }
 
+
+
+
+/*Portfolio page*/
+
+/*Hidden title*/
+.hidden-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+.heading-third-level{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
