@@ -3,7 +3,7 @@
     --accent-color: #4D5AE5;
     --title-text-color: #2E2F42;
     --primary-text-color: #434455;
-    --primary-background-color: #FFF);
+    --primary-background-color: #FFF;
     --secondary-background-color: #F4F4FD;
     --dark-background-color: #2E2F42;
 }
@@ -31,7 +31,7 @@ body{
 .button{
     font-family: inherit;
     background-color: var(--accent-color);
-    color: var(--accent-color);
+    color: var(--primary-background-color);
     cursor: pointer;
 }
 
