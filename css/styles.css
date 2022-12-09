@@ -38,7 +38,6 @@ footer {
   background-color: var(--accent-color);
   color: var(--primary-background-color);
   cursor: pointer;
-
 }
 
 .button:hover .button:focus {
@@ -127,8 +126,6 @@ footer a {
 }
 
 .hero-title {
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--primary-background-color);
@@ -142,7 +139,6 @@ footer a {
 
 /*What we are doing*/
 .heading-second-level {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.33;
 }
@@ -153,7 +149,6 @@ footer a {
   background-color: var(--secondary-background-color);
 }
 .our-team-list > h2 {
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -161,7 +156,6 @@ footer a {
 /*Portfolio page*/
 
 .heading-third-level {
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
 }
