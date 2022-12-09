@@ -13,8 +13,6 @@ body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.02em;
   font-size: 16px;
 }
 
