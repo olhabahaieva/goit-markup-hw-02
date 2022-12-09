@@ -77,6 +77,11 @@ footer {
   text-transform: uppercase;
 }
 
+nav a,
+footer a {
+  text-decoration: none;
+}
+
 .blue-logo {
   color: var(--accent-color);
 }
@@ -85,7 +90,6 @@ footer {
 .main-navigation a {
   color: var(--title-text-color);
   text-decoration: none;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
@@ -100,6 +104,7 @@ footer {
 .contacts > a {
   font-family: inherit;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .contacts > a:hover,
 .contacts > a:focus {
