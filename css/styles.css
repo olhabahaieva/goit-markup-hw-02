@@ -32,10 +32,15 @@ footer {
 /*Buttons*/
 
 .button {
-  font-family: inherit;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   background-color: var(--accent-color);
   color: var(--primary-background-color);
   cursor: pointer;
+
 }
 
 .button:hover .button:focus {
@@ -43,7 +48,11 @@ footer {
 }
 
 .button-light {
-  font-family: inherit;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   color: var(--accent-color);
   background-color: var(--secondary-background-color);
   cursor: pointer;
